@@ -57,8 +57,8 @@ export default async function handler(req, res) {
         fundraiserID: fundraiserID,
         userID:userID ,
         amount: amount,
-        paymentStatus: "pending",
-        orderID: order.id,
+       
+       
       });
       await donation.save();
 
